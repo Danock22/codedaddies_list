@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2 style="text-align: center">{{search | title}} </h2>
+    <div class="row">
+            {% comment %} {% for post in final_postings %} {% endcomment %}
+        <div class="col s4">
+            <div class="card">
+                <div class="card-image">
+                    <a href="{% url 'my_app:home_page' %}"><img src="http://static.iris.net.co/arcadia/upload/images/2019/10/10/78437_1.jpg" alt=""></a>
+                </div>
+                <div class="card-content">
+                    <p>TEST</p>
+                </div>
+                <div class="card-action">
+                    <a href="{% url 'my_app:home_page' %}">View listing: Price TEST PRICE</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s4">
+            <div class="card">
+                <div class="card-image">
+                    <a href="{% url 'my_app:home_page' %}"><img src="http://static.iris.net.co/arcadia/upload/images/2019/10/10/78437_1.jpg" alt=""></a>
+                </div>
+                <div class="card-content">
+                    <p>TEST</p>
+                </div>
+                <div class="card-action">
+                    <a href="{% url 'my_app:home_page' %}">View listing: Price TEST PRICE</a>
+                </div>
+            </div>
+        </div>
+    
+    {% comment %} MINUTO 5:26:17 {% endcomment %}    
+    {% comment %} {% endfor %} {% endcomment %}
+    </div>
+{% endblock content %}

@@ -1,0 +1,9 @@
+-	Utilizar los nombres de las URLS en los html de la forma:
+	"{% url '<app>:<name>' %}"
+	Esto permite que la url pueda cambiar la URL sin tener que modificar código.
+	
+-	MATERIALIZE: Es una librería de CSS que permite manejar muchos estilos e íconos.
+
+-	FLEXBOX: Cajas que automáticamente renderizan su posición si la ventana cambia de tamaño.
+
+- | title: Filtro para mostrar mejor el texto
