@@ -13,7 +13,7 @@ def home(request):
     return render(request, template_name='base.html')
 
 def new_search(request):
-
+    
     search = request.POST.get('search')
     models.Search.objects.create(search=search)
     final_url = BASE_CRAIGSLIST_URL.format(quote(search))
