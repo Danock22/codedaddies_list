@@ -7,15 +7,10 @@
     <title>Codedaddies List</title>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="stylesheet" href="{% static "css/style.css" %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     {% comment %} <script src="https://kit.fontawesome.com/a076d05399.js"></script> {% endcomment %}
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-    <style>
-    /* This button are edited by daniel */
-    .daniel_button {background-color: #008CBA;}
-    </style>
 
 </head>
 <body>
@@ -61,7 +56,7 @@
     <form action="{% url 'my_app:new_search' %}" method="post">
         {% csrf_token %}
         <input type="text" name="search" placeholder="Search">
-        <button class="btn waves-effect waves-light daniel_button" type="submit" name="action">Submit
+        <button class="btn waves-effect waves-light btn-daniel" type="submit" name="action">Submit
             <i class="material-icons right">send</i>
         </button>
     </form>

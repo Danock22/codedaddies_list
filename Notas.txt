@@ -6,4 +6,10 @@
 
 -	FLEXBOX: Cajas que automáticamente renderizan su posición si la ventana cambia de tamaño.
 
-- | title: Filtro para mostrar mejor el texto
+-	title: Filtro para mostrar mejor el texto
+
+-	request: Sirve para hacer peticiones a cualquier url y obtener una respuesta
+
+-	quote_plus from request.compat: sirve para agregar un "+" e los esacios de un string para agragarlo a una url
+
+-	BautifulSoup: 
